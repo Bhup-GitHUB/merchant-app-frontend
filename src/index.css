@@ -37,9 +37,16 @@
   body {
     @apply bg-background text-foreground font-sans antialiased;
     font-feature-settings: "rlig" 1, "calt" 1;
+    scroll-behavior: smooth;
   }
 }
 
+:focus {
+  outline: 2px solid hsl(var(--primary));
+  outline-offset: 2px;
+}
+
+/* Custom utility classes below */
 .glass {
   @apply bg-white/5 backdrop-blur-lg;
   border: 1px solid transparent;

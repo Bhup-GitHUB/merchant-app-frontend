@@ -1,3 +1,7 @@
+/*
+  NOTE: If you are using Tailwind for all styling, consider removing unused styles below.
+  Clean up .logo, .card, .read-the-docs if not referenced in your components.
+*/
 #root {
   max-width: 1280px;
   margin: 0 auto;
